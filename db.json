@@ -6268,7 +6268,7 @@
                   "seqno": 2,
                   "filtercontroltype": "dropdown",
                   "isquickfilter": true,
-                  "api_name": "breakrukestatus",
+                  "api_name": "breakrulestatus",
                   "islookup": false,
                   "masterid": "9083",
                   "apioutputskey": "optionid",
@@ -6390,48 +6390,7 @@
       "owner": null,
       "isdefault": true,
       "last_accessed_time": null,
-      "filters": [
-        {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861388b1c72",
-          "filterid": "column300",
-          "filterdisplayname": "breakrulename",
-          "filtercontroltype": "textbox",
-          "defaultvalue": "",
-          "filtercategory": "quick",
-          "isquickfilter": true,
-          "defaultvalall": ""
-        },
-        {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861377b1c72",
-          "filterid": "column3001",
-          "filterdisplayname": "breakrukestatus",
-          "filtercontroltype": "dropdown",
-          "defaultvalue": "",
-          "filtercategory": "quick",
-          "isquickfilter": true,
-          "defaultvalall": ""
-        },
-        {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861399b1c72",
-          "filterid": "column3",
-          "filterdisplayname": "mode",
-          "filtercontroltype": "dropdown",
-          "defaultvalue": "",
-          "filtercategory": "quick",
-          "isquickfilter": true,
-          "defaultvalall": ""
-        },
-        {
-          "id": "6015a185-993d-4de7-8bfb",
-          "filterid": "column92",
-          "filterdisplayname": "status",
-          "filtercontroltype": "multiselect",
-          "defaultvalue": "",
-          "filtercategory": "quick",
-          "isquickfilter": true,
-          "defaultvalall": ""
-        }
-      ],
+      "filters": [],
       "groupby": [
         {
           "id": "d94b9810-3bd7-4275-bf15-8862ddf44fb9",

@@ -36,6 +36,12 @@
           },
           {
             "islookup": true,
+            "masterid": "9083",
+            "mastervalues": "[{\"optionid\":\"P1\",\"optionvalue\":\"Active\"},{\"optionid\":\"P2\",\"optionvalue\":\"InActive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
             "masterid": "3626",
             "mastervalues": "[{\"optionid\":\"P1\",\"optionvalue\":\"Active\"}]",
             "groupvalue": {}
@@ -1107,18 +1113,18 @@
         {
           "id": "TS-20240817-011",
           "date": "03/03/2025",
-          "Check In": "10:00 AM",
-          "Check Out": "07:30 PM",
-          "Duration": "09:30",
-          "Wrk Hrs": "09:00",
-          "OT Hrs": "00:00",
-          "Double OT Hrs": "00:30",
-          "Brk Hrs": "00:00",
+          "Check In": "",
+          "Check Out": "",
+          "Duration": "",
+          "Wrk Hrs": "",
+          "OT Hrs": "",
+          "Double OT Hrs": "",
+          "Brk Hrs": "",
           "project": "",
           "client": "",
           "To Do": "",
-          "Status": "Pending Submission",
-          "holidayStatus": ""
+          "Status": "Pending Creation",
+          "holidayStatus": "No Time Entry"
         },
         {
           "id": "TS-20240724-004",
@@ -5923,7 +5929,7 @@
       "last_accessed_time": null,
       "filters": [
         {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861399b1c72",
+          "id": "c5c3b8c8-",
           "filterid": "column300",
           "filterdisplayname": "shiftname",
           "filtercontroltype": "multiselect",
@@ -5933,7 +5939,7 @@
           "defaultvalall": ""
         },
         {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861399b10991",
+          "id": "c5c3b8c8-ca99-40",
           "filterid": "column3001",
           "filterdisplayname": "Category",
           "filtercontroltype": "multiselect",
@@ -5943,7 +5949,7 @@
           "defaultvalall": ""
         },
         {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861399b1c72",
+          "id": "c5c3b8c8-ca99-408",
           "filterid": "column3",
           "filterdisplayname": "Status",
           "filtercontroltype": "dropdown",
@@ -6241,7 +6247,34 @@
                   "islookup": true
                 }
               ],
-              "filterfields": [],
+              "filterfields": [
+                {
+                  "id": "c5c3b8c8-ca99-408e-b54b-2861388b1c72",
+                  "name": "Break Rule Name",
+                  "lablekey": "lbl-Workitem-title",
+                  "seqno": 1,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "breakrulename",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "c5c3b8c8-ca99-408e-b54b-2861377b1c72",
+                  "name": "Status",
+                  "lablekey": "lbl-Workitem-title",
+                  "seqno": 2,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "breakrukestatus",
+                  "islookup": false,
+                  "masterid": "9083",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                }
+              ],
               "groupbyfields": [
                 {
                   "id": "137002d1-2b05-403f-8e98-0d88fab3a10a",
@@ -6359,20 +6392,20 @@
       "last_accessed_time": null,
       "filters": [
         {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861399b1099",
+          "id": "c5c3b8c8-ca99-408e-b54b-2861388b1c72",
           "filterid": "column300",
           "filterdisplayname": "breakrulename",
-          "filtercontroltype": "multiselect",
+          "filtercontroltype": "textbox",
           "defaultvalue": "",
           "filtercategory": "quick",
           "isquickfilter": true,
           "defaultvalall": ""
         },
         {
-          "id": "c5c3b8c8-ca99-408e-b54b-2861399b10991",
+          "id": "c5c3b8c8-ca99-408e-b54b-2861377b1c72",
           "filterid": "column3001",
-          "filterdisplayname": "paytype",
-          "filtercontroltype": "multiselect",
+          "filterdisplayname": "breakrukestatus",
+          "filtercontroltype": "dropdown",
           "defaultvalue": "",
           "filtercategory": "quick",
           "isquickfilter": true,

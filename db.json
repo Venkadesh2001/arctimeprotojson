@@ -76,7 +76,6 @@
             "mastervalues": "[{\"optionid\":\"S1\",\"optionvalue\":\"Completed\"},{\"optionid\":\"S2\",\"optionvalue\":\"Scheduled\"}]",
             "groupvalue": {}
           },
-
           {
             "islookup": true,
             "masterid": "567",
@@ -321,6 +320,30 @@
             "masterid": "0985",
             "mastervalues": "[{\"optionid\":\"12345\",\"optionvalue\":\"Early In\"},{\"optionid\":\"12346\",\"optionvalue\":\"Early Out\"},{\"optionid\":\"123451\",\"optionvalue\":\"Missed Punch In\"},{\"optionid\":\"123459\",\"optionvalue\":\"Missed Punch Out\"}]",
             "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "accr01",
+            "mastervalues": "[{\"optionid\":\"acc001\",\"optionvalue\":\"Fixed\"},{\"optionid\":\"acc002\",\"optionvalue\":\"Hours per hours worked\"},{\"optionid\":\"acc003\",\"optionvalue\":\"Tenure Based Accrual\"},{\"optionid\":\"acc004\",\"optionvalue\":\"No Accrual\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "accr02",
+            "mastervalues": "[{\"optionid\":\"acc001\",\"optionvalue\":\"Weekly\"},{\"optionid\":\"acc002\",\"optionvalue\":\"Monthly\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "accr03",
+            "mastervalues": "[{\"optionid\":\"acc001\",\"optionvalue\":\"First Day of Policy\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "accr05",
+            "mastervalues": "[{\"optionid\":\"acc001\",\"optionvalue\":\"Date of Joining\"}]",
+            "groupvalue": {}
           }
         ]
       },
@@ -484,7 +507,6 @@
                   "isdate": false,
                   "islookup": false
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
                   "name": "Check In",
@@ -604,7 +626,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
                   "name": "Status",
@@ -946,7 +967,6 @@
           "api_name": "holidayStatus",
           "columnwidth": 150
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
           "seqno": 3,
@@ -1077,7 +1097,6 @@
           "Status": "Pending Approval",
           "holidayStatus": ""
         },
-
         {
           "id": "TS-20240825-003",
           "date": "03/05/2025",
@@ -1238,7 +1257,6 @@
           "Status": "Pending Submission",
           "holidayStatus": ""
         },
-
         {
           "id": "TS-20240716-012",
           "date": "2/17/2025",
@@ -1256,7 +1274,6 @@
           "holidayStatus": ""
         }
       ],
-
       "totalRecords": 55,
       "groupbydetails": []
     }
@@ -1417,7 +1434,6 @@
                   "isdate": false,
                   "islookup": false
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
                   "name": "Check In",
@@ -1537,7 +1553,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
                   "name": "Status",
@@ -1645,6 +1660,19 @@
                   "api_name": "column30011",
                   "islookup": true,
                   "masterid": "0921",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "c5c3b8c8-ca99-56h3-b54b-2861399b1c71",
+                  "name": "Exclude",
+                  "lablekey": "lbl-Workitem-chunk",
+                  "seqno": 106,
+                  "filtercontroltype": "checkbox",
+                  "isquickfilter": true,
+                  "api_name": "column3",
+                  "islookup": false,
+                  "masterid": "351000000",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 }
@@ -1794,6 +1822,16 @@
           "filtercategory": "quick",
           "isquickfilter": true,
           "defaultvalall": ""
+        },
+        {
+          "id": "c5c3b8c8-ca99-56h3-b54b-2861399b1c71",
+          "filterid": "column92",
+          "filterdisplayname": "Exclude Weekend",
+          "filtercontroltype": "checkbox",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
         }
       ],
       "groupby": [
@@ -1849,7 +1887,6 @@
           "api_name": "holidayStatus",
           "columnwidth": 150
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
           "seqno": 3,
@@ -1980,7 +2017,6 @@
           "Status": "Pending Approval",
           "holidayStatus": ""
         },
-
         {
           "id": "TS-20240825-003",
           "date": "03/05/2025",
@@ -2141,7 +2177,6 @@
           "Status": "Pending Submission",
           "holidayStatus": ""
         },
-
         {
           "id": "TS-20240716-012",
           "date": "2/17/2025",
@@ -2159,7 +2194,6 @@
           "holidayStatus": ""
         }
       ],
-
       "totalRecords": 55,
       "groupbydetails": []
     }
@@ -2575,7 +2609,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
                   "name": "Status",
@@ -2849,7 +2882,6 @@
           "api_name": "Project",
           "columnwidth": 350
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-040101",
           "seqno": 3,
@@ -3108,7 +3140,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-05",
                   "name": "Category",
@@ -3160,7 +3191,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
                   "name": "Status",
@@ -3356,7 +3386,6 @@
           "isquickfilter": true,
           "defaultvalall": ""
         },
-
         {
           "id": "c5c3b8c8-ca99-408e-b54b-2861399b1c72",
           "filterid": "column3",
@@ -3412,7 +3441,6 @@
           "api_name": "client",
           "columnwidth": 350
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-05",
           "seqno": 3,
@@ -4056,7 +4084,6 @@
           "api_name": "todo",
           "columnwidth": 350
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-04",
           "seqno": 3,
@@ -4351,7 +4378,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0010",
                   "name": "Employment Status",
@@ -4369,7 +4395,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
                   "name": "Official Email",
@@ -5168,7 +5193,6 @@
           "api_name": "payperiod",
           "columnwidth": 250
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-040101",
           "seqno": 3,
@@ -5579,7 +5603,6 @@
           "api_name": "position",
           "columnwidth": 350
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-040101",
           "seqno": 3,
@@ -6013,7 +6036,6 @@
           "api_name": "shifttime",
           "columnwidth": 350
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-040101",
           "seqno": 3,
@@ -6435,7 +6457,6 @@
           "api_name": "breakrulename",
           "columnwidth": 350
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-040101",
           "seqno": 3,
@@ -6882,7 +6903,6 @@
           "api_name": "clockoutrounding",
           "columnwidth": 250
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-040101",
           "seqno": 3,
@@ -7066,7 +7086,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-06",
                   "name": "Reporting To",
@@ -7101,7 +7120,6 @@
                   "isdate": false,
                   "islookup": true
                 },
-
                 {
                   "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
                   "name": "Status",
@@ -7302,7 +7320,6 @@
       "owner": null,
       "isdefault": true,
       "last_accessed_time": null,
-
       "filters": [
         {
           "id": "c5c3b8c8-ca99-408e-b54b-2861399b10991",
@@ -7408,7 +7425,6 @@
           "api_name": "employeeemail",
           "columnwidth": 200
         },
-
         {
           "id": "b87fb361-e374-46f2-a823-55f78a8c5c-06",
           "seqno": 3,
@@ -7795,7 +7811,6 @@
           "api_name": "LastUpdated",
           "columnwidth": 200
         },
-
         {
           "id": "03",
           "seqno": 1,
@@ -7974,5 +7989,3024 @@
       ],
       "totalRecords": 20
     }
-  }
+  },
+  "gettimeoffpolicylookupdatabyid": {
+    "result": {
+      "data": {
+        "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+        "lookupvalues": [
+          {
+            "islookup": true,
+            "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+            "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7001",
+            "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7032",
+            "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7033",
+            "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7031",
+            "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7034",
+            "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7035",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000100",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000101",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000102",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "001",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "002",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "003",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "004",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "005",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
+          }
+        ]
+      },
+      "messages": [],
+      "succeeded": true
+    }
+  },
+  "gettimeoffpolicylistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+          "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+          "entityname": "Entities",
+          "name": "Entity",
+          "header": {
+            "name": "Entities"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "e463d6b2-80d7-4288-1234-9386c1d740f0",
+                "title": "All quote",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 2
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "invoice00",
+                  "name": "Time Off Policy Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeoffPolicyName",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice02",
+                  "name": "Employees Assigned",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "EmployeesAssigned",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice03",
+                  "name": "Policy Status",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "PolicyStatus",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice04",
+                  "name": "Stage",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "Stage",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice05",
+                  "name": "Status",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "Status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice06",
+                  "name": "Total Amount",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TotalAmount",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice07",
+                  "name": "Due On",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "DueOn",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice08",
+                  "name": "Delivered On",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "DeliveredOn",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice09",
+                  "name": "Description",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "Description",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "001",
+                  "name": "Invoice Number",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Customer Type",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "004",
+                  "name": "Customer Name",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Stage",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "006",
+                  "name": "Status",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "007",
+                  "name": "Due On",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "008",
+                  "name": "Delivered On",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                  "name": "Customer Type",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                  "name": "Policy Status",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "61376780-b621-46cd-97ad-49e415e33736",
+                  "name": "Stage",
+                  "labelkey": "lbl-Account-CustomerTypeCode",
+                  "seqno": null,
+                  "api_name": "CustomerTypeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "202"
+                },
+                {
+                  "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                  "name": "Status",
+                  "labelkey": "lbl-Account-CustomerSizeCode",
+                  "seqno": null,
+                  "api_name": "CustomerSizeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "201"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "gettimeoffpolicydatasetfieldinfobyid": {
+    "result": {
+      "id": "e463d6b2-80d7-4288-1234-9386c1d740f0",
+      "name": "All Workflows",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        {
+          "id": "001",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Invoice Number",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "003",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Customer Type",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "004",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Customer Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "005",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Stage",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "006",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Status",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        }
+      ],
+      "groupby": [],
+      "columns": [
+        {
+          "id": "invoice00",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TimeoffPolicyName",
+          "columnwidth": 230
+        },
+        {
+          "id": "invoice02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "EmployeesAssigned",
+          "columnwidth": 180
+        },
+        {
+          "id": "invoice03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "PolicyStatus",
+          "columnwidth": 180
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Stage",
+          "columnwidth": 150
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Status",
+          "columnwidth": 150
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TotalAmount",
+          "columnwidth": 150
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Description",
+          "columnwidth": 350
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "DueOn",
+          "columnwidth": 150
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "DeliveredOn",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "gettimeoffpolicylistdetails": {
+    "result": {
+      "data": [
+        {
+          "id": "01",
+          "TimeoffPolicyName": "Standard Time Off Policy",
+          "EmployeesAssigned": "3",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "02",
+          "TimeoffPolicyName": "Freshers Time Off Policy",
+          "EmployeesAssigned": "2",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "03",
+          "TimeoffPolicyName": "Admin Time Off Policy",
+          "EmployeesAssigned": "1",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "04",
+          "TimeoffPolicyName": "Standard Time Off Policy",
+          "EmployeesAssigned": "3",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "05",
+          "TimeoffPolicyName": "Freshers Time Off Policy",
+          "EmployeesAssigned": "2",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "06",
+          "TimeoffPolicyName": "Admin Time Off Policy",
+          "EmployeesAssigned": "1",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        }
+      ],
+      "totalRecords": 6
+    }
+  },
+  "getteamtimeofflookupdatabyid": {
+    "result": {
+      "data": {
+        "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+        "lookupvalues": [
+          {
+            "islookup": true,
+            "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+            "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7001",
+            "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7032",
+            "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7033",
+            "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7031",
+            "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7034",
+            "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7035",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000100",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000101",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000102",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "001",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "002",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "003",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "004",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "005",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
+          }
+        ]
+      },
+      "messages": [],
+      "succeeded": true
+    }
+  },
+  "getteamtimeofflistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+          "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+          "entityname": "Entities",
+          "name": "Entity",
+          "header": {
+            "name": "Entities"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "e463d6b2-80d7-4288-b603-9386c1d740f0",
+                "title": "All quote",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 2
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "invoice00",
+                  "name": "Employee Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 300,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOff_employeename",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice02",
+                  "name": "Time Off Type",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOff_type",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice03",
+                  "name": "From",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOff_from",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice04",
+                  "name": "To",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOff_to",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice05",
+                  "name": "No of Days/Hours",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOff_total",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "invoice06",
+                  "name": "Status",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOff_status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "001",
+                  "name": "Employee Name",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Customer Type",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "004",
+                  "name": "Customer Name",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Stage",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "006",
+                  "name": "Status",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "007",
+                  "name": "Due On",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "008",
+                  "name": "Delivered On",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                  "name": "Customer Type",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                  "name": "Policy Status",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "61376780-b621-46cd-97ad-49e415e33736",
+                  "name": "Stage",
+                  "labelkey": "lbl-Account-CustomerTypeCode",
+                  "seqno": null,
+                  "api_name": "CustomerTypeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "202"
+                },
+                {
+                  "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                  "name": "Status",
+                  "labelkey": "lbl-Account-CustomerSizeCode",
+                  "seqno": null,
+                  "api_name": "CustomerSizeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "201"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "getteamtimeoffdatasetfieldinfobyid": {
+    "result": {
+      "id": "e463d6b2-80d7-4288-b603-9386c1d740f0",
+      "name": "All Workflows",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        {
+          "id": "001",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Employee Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "003",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Customer Type",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "004",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Customer Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "005",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Stage",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "006",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Status",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        }
+      ],
+      "groupby": [],
+      "columns": [
+        {
+          "id": "invoice00",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TimeOff_employeename",
+          "columnwidth": 300
+        },
+        {
+          "id": "invoice02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "EmployeesAssigned",
+          "columnwidth": 150
+        },
+        {
+          "id": "invoice03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "PolicyStatus",
+          "columnwidth": 180
+        },
+        {
+          "id": "invoice04",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Stage",
+          "columnwidth": 180
+        },
+        {
+          "id": "invoice05",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Status",
+          "columnwidth": 150
+        },
+        {
+          "id": "invoice06",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TotalAmount",
+          "columnwidth": 150
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Description",
+          "columnwidth": 350
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "DueOn",
+          "columnwidth": 150
+        },
+        {
+          "id": "",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "DeliveredOn",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "getteamtimeofflistdetails": {
+    "result": {
+      "data": [
+        {
+          "id": "01",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Jame feror",
+          "TimeOff_from": "04/07/2025 (09:00 AM)",
+          "TimeOff_to": "04/07/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Approved",
+          "EmployeesAssigned": "3",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "02",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "lamie yamal",
+          "TimeOff_from": "03/21/2025 (09:00 AM)",
+          "TimeOff_to": "03/21/2025 (05:00 PM)",
+          "TimeOff_total": "08:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "2",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "03",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Anthony Andre",
+          "TimeOff_from": "03/19/2025 (09:00 AM)",
+          "TimeOff_to": "03/19/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "1",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "04",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Isabella Mohad",
+          "TimeOff_from": "03/20/2025 (09:00 AM)",
+          "TimeOff_to": "03/20/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "3",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "05",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Amelia John",
+          "TimeOff_from": "03/24/2025 (09:00 AM)",
+          "TimeOff_to": "03/24/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "2",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "06",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Amen shuf",
+          "TimeOff_from": "03/25/2025 (09:00 AM)",
+          "TimeOff_to": "03/25/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "1",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "07",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Jame feror",
+          "TimeOff_from": "04/07/2025 (09:00 AM)",
+          "TimeOff_to": "04/07/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Approved",
+          "EmployeesAssigned": "New",
+          "PolicyStatus": "Amanda Wilson",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "08",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "lamie yamal",
+          "TimeOff_from": "03/21/2025 (09:00 AM)",
+          "TimeOff_to": "03/21/2025 (05:00 PM)",
+          "TimeOff_total": "08:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "In Active",
+          "PolicyStatus": "James Taylor",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "09",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Anthony Andre",
+          "TimeOff_from": "03/19/2025 (09:00 AM)",
+          "TimeOff_to": "03/19/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "1",
+          "PolicyStatus": "Published",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "10",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Isabella Mohad",
+          "TimeOff_from": "03/20/2025 (09:00 AM)",
+          "TimeOff_to": "03/20/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "Subscriber",
+          "PolicyStatus": "Daniel Miller",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "11",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Amelia John",
+          "TimeOff_from": "03/24/2025 (09:00 AM)",
+          "TimeOff_to": "03/24/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "Active",
+          "PolicyStatus": "Sophia Martinez",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "12",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Amen shuf",
+          "TimeOff_from": "03/25/2025 (09:00 AM)",
+          "TimeOff_to": "03/25/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Pending",
+          "EmployeesAssigned": "New",
+          "PolicyStatus": "Christopher Lee",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "13",
+          "TimeOff_type": "Paid Time Off",
+          "TimeOff_employeename": "Jame feror",
+          "TimeOff_from": "04/07/2025 (09:00 AM)",
+          "TimeOff_to": "04/07/2025 (06:00 PM)",
+          "TimeOff_total": "09:00 Hour(s)",
+          "TimeOff_status": "Approved",
+          "EmployeesAssigned": "In Active",
+          "PolicyStatus": "Olivia Rodriguez",
+          "Stage": "",
+          "Status": "",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        }
+      ],
+      "totalRecords": 20
+    }
+  },
+  "gettimeofftypelookupdatabyid": {
+    "result": {
+      "data": {
+        "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+        "lookupvalues": [
+          {
+            "islookup": true,
+            "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+            "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7001",
+            "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7032",
+            "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7033",
+            "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7031",
+            "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7034",
+            "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7035",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000100",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000101",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000102",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "001",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "002",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "003",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "004",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "005",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
+          }
+        ]
+      },
+      "messages": [],
+      "succeeded": true
+    }
+  },
+  "gettimeofftypelistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+          "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+          "entityname": "Entities",
+          "name": "Entity",
+          "header": {
+            "name": "Entities"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "e463d6b2-bc23-4288-b603-9386c1d740f0",
+                "title": "All quote",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 2
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "TO_Type_01",
+                  "name": "Time Off Policy Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeoffPolicyType",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "TO_Type_02",
+                  "name": "Time Off Code",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOffCode",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "TO_Type_03",
+                  "name": "Time Off Balance",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TimeOffBalance",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "TO_Type_04",
+                  "name": "Status",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "Status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "001",
+                  "name": "Invoice Number",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Customer Type",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "004",
+                  "name": "Customer Name",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Status",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "006",
+                  "name": "Status",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "007",
+                  "name": "Due On",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "008",
+                  "name": "Delivered On",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                  "name": "Customer Type",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                  "name": "Policy Status",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "61376780-b621-46cd-97ad-49e415e33736",
+                  "name": "Status",
+                  "labelkey": "lbl-Account-CustomerTypeCode",
+                  "seqno": null,
+                  "api_name": "CustomerTypeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "202"
+                },
+                {
+                  "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                  "name": "Status",
+                  "labelkey": "lbl-Account-CustomerSizeCode",
+                  "seqno": null,
+                  "api_name": "CustomerSizeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "201"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "gettimeofftypedatasetfieldinfobyid": {
+    "result": {
+      "id": "e463d6b2-2356-4288-b603-9386c1d740f0",
+      "name": "All Workflows",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        {
+          "id": "001",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Invoice Number",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "003",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Customer Type",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "004",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Customer Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "005",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Status",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "006",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Status",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        }
+      ],
+      "groupby": [],
+      "columns": [
+        {
+          "id": "TO_Type_01",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TimeoffPolicyType",
+          "columnwidth": 230
+        },
+        {
+          "id": "TO_Type_02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TimeOffCode",
+          "columnwidth": 180
+        },
+        {
+          "id": "TO_Type_03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "TimeOffBalance",
+          "columnwidth": 180
+        },
+        {
+          "id": "TO_Type_04",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Status",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "gettimeofftypelistdetails": {
+    "result": {
+      "data": [
+        {
+          "id": "01",
+          "TimeoffPolicyType": "Casual",
+          "TimeOffCode": "C123",
+          "TimeOffBalance": "10",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "02",
+          "TimeoffPolicyType": "Holiday",
+          "TimeOffCode": "123",
+          "TimeOffBalance": "10",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "03",
+          "TimeoffPolicyType": "On Duty",
+          "TimeOffCode": "OT",
+          "TimeOffBalance": "60",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "04",
+          "TimeoffPolicyType": "FMLA",
+          "TimeOffCode": "-",
+          "TimeOffBalance": "120",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "05",
+          "TimeoffPolicyType": "Sick",
+          "TimeOffCode": "-",
+          "TimeOffBalance": "150",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "06",
+          "TimeoffPolicyType": "Vacation",
+          "TimeOffCode": "VT",
+          "TimeOffBalance": "200",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        },
+        {
+          "id": "07",
+          "TimeoffPolicyType": "Paid Time Off",
+          "TimeOffCode": "PTO",
+          "TimeOffBalance": "100",
+          "Status": "Active",
+          "Totalamount": "",
+          "Description": "",
+          "DueOn": "",
+          "DeliveredOn": ""
+        }
+      ],
+      "totalRecords": 20
+    }
+  },
+  "getholidaygrouplookupdatabyid": {
+        "result": {
+            "data": {
+                "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+                "lookupvalues": [
+                    {
+                        "islookup": true,
+                        "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+                        "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7001",
+                        "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7032",
+                        "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7033",
+                        "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7031",
+                        "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7034",
+                        "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7035",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "000100",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "000101",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "000102",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+                        "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "001",
+                        "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "002",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "003",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "004",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "005",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "006",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "007",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "008",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "009",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "010",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+                        "groupvalue": {}
+                    }
+                ]
+            },
+            "messages": [],
+            "succeeded": true
+        }
+    },
+    "getholidaygrouplistconfigbyid": {
+        "result": {
+            "list": [
+                {
+                    "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+                    "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+                    "entityname": "Entities",
+                    "name": "Entity",
+                    "header": {
+                        "name": "Entities"
+                    },
+                    "type": "List",
+                    "data": {
+                        "dataset": [
+                            {
+                                "datasetid": "e463d6b2-80d7-4288-b603-8765c1d740f0",
+                                "title": "All quote",
+                                "isdefault": true,
+                                "isselected": true,
+                                "owner": "system",
+                                "seqno": 2
+                            }
+                        ],
+                        "config": {
+                            "listfields": [
+                                {
+                                    "id": "HG_01",
+                                    "name": "Holiday Group",
+                                    "lablekey": "entity-name-lbl",
+                                    "columnwidth": 150,
+                                    "seqno": 1,
+                                    "masterid": "",
+                                    "controltype": "textbox",
+                                    "attrtype": "text",
+                                    "currencytype": null,
+                                    "api_name": "DisplayName",
+                                    "visible": true,
+                                    "displayapiname": "HolidayGroup",
+                                    "inlineeditable": null,
+                                    "istitle": true,
+                                    "isdate": false,
+                                    "islookup": false
+                                },
+                                {
+                                    "id": "HG_02",
+                                    "name": "Holidays",
+                                    "lablekey": "entity-name-lbl",
+                                    "columnwidth": 150,
+                                    "seqno": 1,
+                                    "masterid": "",
+                                    "controltype": "textbox",
+                                    "attrtype": "text",
+                                    "currencytype": null,
+                                    "api_name": "DisplayName",
+                                    "visible": true,
+                                    "displayapiname": "Holidays",
+                                    "inlineeditable": null,
+                                    "istitle": false,
+                                    "isdate": false,
+                                    "islookup": false
+                                }
+                            ],
+                            "filterfields": [
+                                {
+                                    "id": "001",
+                                    "name": "Invoice Number",
+                                    "lablekey": "entity-type-lbl",
+                                    "seqno": 5,
+                                    "filtercontroltype": "textbox",
+                                    "isquickfilter": true,
+                                    "api_name": "EntityType",
+                                    "islookup": true,
+                                    "masterid": "",
+                                    "apioutputskey": "optionid",
+                                    "apioutputvalue": "optionvalue"
+                                },
+                                {
+                                    "id": "003",
+                                    "name": "Customer Type",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "004",
+                                    "name": "Customer Name",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "005",
+                                    "name": "Status",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "006",
+                                    "name": "Status",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "007",
+                                    "name": "Due On",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "datepicker",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "008",
+                                    "name": "Delivered On",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "datepicker",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                }
+                            ],
+                            "groupbyfields": [
+                                {
+                                    "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                                    "name": "Customer Type",
+                                    "labelkey": "contact_workflowstatus_lbl",
+                                    "seqno": null,
+                                    "api_name": "Workflow Status",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                                },
+                                {
+                                    "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                                    "name": "Policy Status",
+                                    "labelkey": "contact_workflowstage_lbl",
+                                    "seqno": null,
+                                    "api_name": "Workflow Stage",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                                },
+                                {
+                                    "id": "61376780-b621-46cd-97ad-49e415e33736",
+                                    "name": "Status",
+                                    "labelkey": "lbl-Account-CustomerTypeCode",
+                                    "seqno": null,
+                                    "api_name": "CustomerTypeCode",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "202"
+                                },
+                                {
+                                    "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                                    "name": "Status",
+                                    "labelkey": "lbl-Account-CustomerSizeCode",
+                                    "seqno": null,
+                                    "api_name": "CustomerSizeCode",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "201"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "getholidaygroupdatasetfieldinfobyid": {
+        "result": {
+            "id": "e463d6b2-80d7-4288-b603-9386rfd740f0",
+            "name": "All Workflows",
+            "owner": null,
+            "isdefault": true,
+            "last_accessed_time": null,
+            "filters": [
+                {
+                    "id": "001",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Invoice Number",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "003",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Customer Type",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "004",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Customer Name",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "005",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Status",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "006",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Status",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                }
+            ],
+            "groupby": [],
+            "columns": [
+                {
+                    "id": "HG_01",
+                    "seqno": 1,
+                    "masterid": "",
+                    "controltype": "textbox",
+                    "attrtype": "text",
+                    "api_name": "HolidayGroup",
+                    "columnwidth": 230
+                },
+                {
+                    "id": "HG_02",
+                    "seqno": 1,
+                    "masterid": "",
+                    "controltype": "textbox",
+                    "attrtype": "text",
+                    "api_name": "Holidays",
+                    "columnwidth": 180
+                }
+            ]
+        }
+    },
+    "getholidaygrouplistdetails": {
+        "result": {
+            "data": [
+                {
+                    "id": "01",
+                    "HolidayGroup": "US Holiday",
+                    "Holidays": "2"
+                },
+                {
+                    "id": "02",
+                    "HolidayGroup": "US Holiday Calendar 23",
+                    "Holidays": "8"
+                },
+                {
+                    "id": "03",
+                    "HolidayGroup": "India Holiday Calendar 22",
+                    "Holidays": "5"
+                }
+            ],
+            "totalRecords": 3
+        }
+    },
+    "getholidaylookupdatabyid": {
+        "result": {
+            "data": {
+                "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+                "lookupvalues": [
+                    {
+                        "islookup": true,
+                        "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+                        "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7001",
+                        "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7032",
+                        "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7033",
+                        "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7031",
+                        "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7034",
+                        "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "7035",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "000100",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "000101",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": false,
+                        "masterid": "000102",
+                        "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+                        "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "001",
+                        "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "002",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "003",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "004",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "005",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "006",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "007",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "008",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "009",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+                        "groupvalue": {}
+                    },
+                    {
+                        "islookup": true,
+                        "masterid": "010",
+                        "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+                        "groupvalue": {}
+                    }
+                ]
+            },
+            "messages": [],
+            "succeeded": true
+        }
+    },
+    "getholidaylistconfigbyid": {
+        "result": {
+            "list": [
+                {
+                    "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+                    "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+                    "entityname": "Entities",
+                    "name": "Entity",
+                    "header": {
+                        "name": "Entities"
+                    },
+                    "type": "List",
+                    "data": {
+                        "dataset": [
+                            {
+                                "datasetid": "e463j7k8-80d7-4288-b603-9386c1d740f0",
+                                "title": "All quote",
+                                "isdefault": true,
+                                "isselected": true,
+                                "owner": "system",
+                                "seqno": 2
+                            }
+                        ],
+                        "config": {
+                            "listfields": [
+                                {
+                                    "id": "Holiday_01",
+                                    "name": "Holiday Name",
+                                    "lablekey": "entity-name-lbl",
+                                    "columnwidth": 150,
+                                    "seqno": 1,
+                                    "masterid": "",
+                                    "controltype": "textbox",
+                                    "attrtype": "text",
+                                    "currencytype": null,
+                                    "api_name": "DisplayName",
+                                    "visible": true,
+                                    "displayapiname": "HolidayName",
+                                    "inlineeditable": null,
+                                    "istitle": true,
+                                    "isdate": false,
+                                    "islookup": false
+                                },
+                                {
+                                    "id": "Holiday_02",
+                                    "name": "From Date",
+                                    "lablekey": "entity-name-lbl",
+                                    "columnwidth": 150,
+                                    "seqno": 1,
+                                    "masterid": "",
+                                    "controltype": "textbox",
+                                    "attrtype": "text",
+                                    "currencytype": null,
+                                    "api_name": "DisplayName",
+                                    "visible": true,
+                                    "displayapiname": "FromDate",
+                                    "inlineeditable": null,
+                                    "istitle": false,
+                                    "isdate": false,
+                                    "islookup": false
+                                },
+                                {
+                                    "id": "Holiday_03",
+                                    "name": "To Date",
+                                    "lablekey": "entity-name-lbl",
+                                    "columnwidth": 150,
+                                    "seqno": 1,
+                                    "masterid": "",
+                                    "controltype": "textbox",
+                                    "attrtype": "text",
+                                    "currencytype": null,
+                                    "api_name": "DisplayName",
+                                    "visible": true,
+                                    "displayapiname": "ToDate",
+                                    "inlineeditable": null,
+                                    "istitle": false,
+                                    "isdate": false,
+                                    "islookup": false
+                                },
+                                {
+                                    "id": "Holiday_04",
+                                    "name": "Status",
+                                    "lablekey": "entity-name-lbl",
+                                    "columnwidth": 150,
+                                    "seqno": 1,
+                                    "masterid": "",
+                                    "controltype": "textbox",
+                                    "attrtype": "text",
+                                    "currencytype": null,
+                                    "api_name": "DisplayName",
+                                    "visible": true,
+                                    "displayapiname": "Status",
+                                    "inlineeditable": null,
+                                    "istitle": false,
+                                    "isdate": false,
+                                    "islookup": false
+                                }
+                            ],
+                            "filterfields": [
+                                {
+                                    "id": "001",
+                                    "name": "Invoice Number",
+                                    "lablekey": "entity-type-lbl",
+                                    "seqno": 5,
+                                    "filtercontroltype": "textbox",
+                                    "isquickfilter": true,
+                                    "api_name": "EntityType",
+                                    "islookup": true,
+                                    "masterid": "",
+                                    "apioutputskey": "optionid",
+                                    "apioutputvalue": "optionvalue"
+                                },
+                                {
+                                    "id": "003",
+                                    "name": "Customer Type",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "004",
+                                    "name": "Customer Name",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "005",
+                                    "name": "Status",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "006",
+                                    "name": "Status",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "multiselect",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "007",
+                                    "name": "Due On",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "datepicker",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                },
+                                {
+                                    "id": "008",
+                                    "name": "Delivered On",
+                                    "lablekey": "lbl-Account-CreatedOn",
+                                    "seqno": 73,
+                                    "filtercontroltype": "datepicker",
+                                    "isquickfilter": true,
+                                    "api_name": "CreatedOn",
+                                    "islookup": true,
+                                    "masterid": "005",
+                                    "apioutputskey": "",
+                                    "apioutputvalue": ""
+                                }
+                            ],
+                            "groupbyfields": [
+                                {
+                                    "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                                    "name": "Customer Type",
+                                    "labelkey": "contact_workflowstatus_lbl",
+                                    "seqno": null,
+                                    "api_name": "Workflow Status",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                                },
+                                {
+                                    "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                                    "name": "Policy Status",
+                                    "labelkey": "contact_workflowstage_lbl",
+                                    "seqno": null,
+                                    "api_name": "Workflow Stage",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                                },
+                                {
+                                    "id": "61376780-b621-46cd-97ad-49e415e33736",
+                                    "name": "Status",
+                                    "labelkey": "lbl-Account-CustomerTypeCode",
+                                    "seqno": null,
+                                    "api_name": "CustomerTypeCode",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "202"
+                                },
+                                {
+                                    "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                                    "name": "Status",
+                                    "labelkey": "lbl-Account-CustomerSizeCode",
+                                    "seqno": null,
+                                    "api_name": "CustomerSizeCode",
+                                    "type": "Horizontal",
+                                    "direction": "-",
+                                    "masterid": "201"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "getholidaydatasetfieldinfobyid": {
+        "result": {
+            "id": "e463d6b2-80d7-4288-b603-9386c1d740f0",
+            "name": "All Workflows",
+            "owner": null,
+            "isdefault": true,
+            "last_accessed_time": null,
+            "filters": [
+                {
+                    "id": "001",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Invoice Number",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "003",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Customer Type",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "004",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Customer Name",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "005",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Status",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                },
+                {
+                    "id": "006",
+                    "filterid": "Lifecylce _Status",
+                    "filterdisplayname": "Status",
+                    "filtercontroltype": "Workflow",
+                    "defaultvalue": "",
+                    "filtercategory": "quick",
+                    "isquickfilter": true,
+                    "defaultvalall": ""
+                }
+            ],
+            "groupby": [],
+            "columns": [
+                {
+                    "id": "Holiday_01",
+                    "seqno": 1,
+                    "masterid": "",
+                    "controltype": "textbox",
+                    "attrtype": "text",
+                    "api_name": "HolidayName",
+                    "columnwidth": 230
+                },
+                {
+                    "id": "Holiday_02",
+                    "seqno": 1,
+                    "masterid": "",
+                    "controltype": "textbox",
+                    "attrtype": "text",
+                    "api_name": "FromDate",
+                    "columnwidth": 180
+                },
+                {
+                    "id": "Holiday_03",
+                    "seqno": 1,
+                    "masterid": "",
+                    "controltype": "textbox",
+                    "attrtype": "text",
+                    "api_name": "ToDate",
+                    "columnwidth": 180
+                },
+                {
+                    "id": "Holiday_04",
+                    "seqno": 1,
+                    "masterid": "",
+                    "controltype": "textbox",
+                    "attrtype": "text",
+                    "api_name": "Status",
+                    "columnwidth": 180
+                }
+            ]
+        }
+    },
+    "getholidaylistdetails": {
+        "result": {
+            "data": [
+                {
+                    "id": "01",
+                    "HolidayName": "Black Friday",
+                    "FromDate": "08/23/2025",
+                    "ToDate": "08/23/2025",
+                    "Status": "Active"
+                },
+                {
+                    "id": "02",
+                    "HolidayName": "All Saints Day",
+                    "FromDate": "11/11/2025",
+                    "ToDate": "11/11/2025",
+                    "Status": "Active"
+                },
+                {
+                    "id": "03",
+                    "HolidayName": "Founder's Day",
+                    "FromDate": "03/12/2024",
+                    "ToDate": "03/12/2024",
+                    "Status": "Active"
+                },
+                {
+                    "id": "04",
+                    "HolidayName": "Memorial Day",
+                    "FromDate": "05/30/2023",
+                    "ToDate": "05/30/2023",
+                    "Status": "Active"
+                },
+                {
+                    "id": "05",
+                    "HolidayName": "US Independence",
+                    "FromDate": "07/04/2023",
+                    "ToDate": "07/04/2023",
+                    "Status": "Active"
+                },
+                {
+                    "id": "06",
+                    "HolidayName": "Labor Day",
+                    "FromDate": "09/05/2023",
+                    "ToDate": "09/05/2023",
+                    "Status": "Active"
+                },
+                {
+                    "id": "07",
+                    "HolidayName": "Veterans Day",
+                    "FromDate": "11/11/2023",
+                    "ToDate": "11/11/2023",
+                    "Status": "Active"
+                },
+                {
+                    "id": "08",
+                    "HolidayName": "Indian Independence",
+                    "FromDate": "08/15/2023",
+                    "ToDate": "08/15/2023",
+                    "Status": "Active"
+                }
+            ],
+            "totalRecords": 8
+        }
+    }
 }
+

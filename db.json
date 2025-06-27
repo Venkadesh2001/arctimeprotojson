@@ -4841,6 +4841,1024 @@
       "groupbydetails": []
     }
   },
+  "getreportslistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "0c67ee8d-2e31-4e25-85b2-4afa61197f3e",
+          "entityid": "26b84156-cc30-416e-99d5-b37409b4d0bd",
+          "entityname": "Workitem",
+          "name": "Default_List_Task",
+          "header": {
+            "name": "Workitem"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "268d97c1-e1da-487d-9c26-c445fde9a747",
+                "title": "Default_Employee",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 1
+              },
+              {
+                "datasetid": "2a495207-3c33-4185-9c63-d72060fbc5a3",
+                "title": "Resource",
+                "isdefault": true,
+                "isselected": false,
+                "owner": "system",
+                "seqno": 109
+              },
+              {
+                "datasetid": "509f30cc-fc18-4577-997c-77c959a559e6",
+                "title": "Inbox",
+                "isdefault": true,
+                "isselected": false,
+                "owner": "system",
+                "seqno": 112
+              },
+              {
+                "datasetid": "fe600956-2e9f-4bd4-8ee7-6874268079d1",
+                "title": "Backlog",
+                "isdefault": true,
+                "isselected": false,
+                "owner": "system",
+                "seqno": 113
+              },
+              {
+                "datasetid": "f33e5317-72a7-4c5f-9e26-a1d09f0c7336",
+                "title": "DS1",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 271
+              },
+              {
+                "datasetid": "321ceb1b-6a2b-470d-b79b-e5f23b995906",
+                "title": "Ds2",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 272
+              },
+              {
+                "datasetid": "6405e2dc-8b60-4569-9e2c-f6da877b2606",
+                "title": "lookup DS",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 274
+              },
+              {
+                "datasetid": "1956188c-6567-4ee0-9b2f-a34dd8aa9432",
+                "title": "ds",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 282
+              },
+              {
+                "datasetid": "d2bc51c7-2fd3-4404-b1ef-0741a2794fec",
+                "title": "test",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 290
+              },
+              {
+                "datasetid": "85e1ed54-67d7-43c6-adb0-ab659c066ebf",
+                "title": "Test1",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 306
+              },
+              {
+                "datasetid": "f9c47c0e-090e-45d5-aed5-3ea660219639",
+                "title": "A Dataset",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 315
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-05",
+                  "name": "Reports Name",
+                  "lablekey": "lbl-Workitem-employeename",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "employeename",
+                  "visible": true,
+                  "displayapiname": "employeename",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": true
+                },
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-04",
+                  "name": "Category",
+                  "lablekey": "lbl-Workitem-projectid",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "employeeid",
+                  "visible": true,
+                  "displayapiname": "employeeid",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": true
+                },
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0010",
+                  "name": "Description",
+                  "lablekey": "lbl-Workitem-projectid",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "Employment Status",
+                  "visible": true,
+                  "displayapiname": "Employment Status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": true
+                }
+              ],
+              "filterfields": [
+                
+                {
+                  "id": "c5c3b8c8-ca99-408e-b54b-2861399b1",
+                  "name": "Category",
+                  "lablekey": "lbl-Workitem-client",
+                  "seqno": 2,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": false,
+                  "api_name": "category",
+                  "islookup": true,
+                  "masterid": "568",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "c5c3b8c8-ca99-408e-b54b-2861399b1c72",
+                  "name": "Status",
+                  "lablekey": "lbl-Workitem-chunk",
+                  "seqno": 7,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": false,
+                  "api_name": "column3",
+                  "islookup": false,
+                  "masterid": "12345",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "137002d1-2b05-403f-8e98-0d88fab3a10a",
+                  "name": "Chunk",
+                  "labelkey": "lbl-Workitem-chunk",
+                  "seqno": 1,
+                  "api_name": "column3",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "351000000"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f25",
+                  "name": "Task Plan Week",
+                  "labelkey": "lbl-Workitem-planweek",
+                  "seqno": 2,
+                  "api_name": "column12",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7005"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f26",
+                  "name": "Plan Month",
+                  "labelkey": "lbl-Workitem-planmonth",
+                  "seqno": 3,
+                  "api_name": "column13",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7004"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f27",
+                  "name": "Plan Quater",
+                  "labelkey": "lbl-Workitem-planquater",
+                  "seqno": 4,
+                  "api_name": "column14",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7008"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f28",
+                  "name": "Plan Year",
+                  "labelkey": "lbl-Workitem-planyear",
+                  "seqno": 5,
+                  "api_name": "column15",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7003"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f29",
+                  "name": "Task Owner",
+                  "labelkey": "lbl-Workitem-owner",
+                  "seqno": 6,
+                  "api_name": "column10",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "E66E5177-DFD2-48A5-BBDE-C8891C37F943"
+                },
+                {
+                  "id": "ef2930d2-76bc-464e-a6a0-b4e7576a3e33",
+                  "name": " Task Assigned To",
+                  "labelkey": "lbl-Workitem-Taskassignedby",
+                  "seqno": 5,
+                  "api_name": "column11",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "E66E5177-DFD2-48A5-BBDE-C8891C37F943"
+                },
+                {
+                  "id": "f2037586-381e-422d-84e4-09ebf1d507f8",
+                  "name": "Priority",
+                  "labelkey": "lbl-Workitem-priority",
+                  "seqno": 4,
+                  "api_name": "column6",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7041"
+                },
+                {
+                  "id": "4a17cce9-abb4-4c94-a21d-bf13789c7083",
+                  "name": "Workitem Type",
+                  "labelkey": "lbl-Workitem-workitem type",
+                  "seqno": null,
+                  "api_name": "column1",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "3060"
+                },
+                {
+                  "id": "d94b9810-3bd7-4275-bf15-8862ddf44fb9",
+                  "name": "Project",
+                  "labelkey": "lbl-Workitem-projectid",
+                  "seqno": 2,
+                  "api_name": "column41",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "getreportsdatasetfieldinfobyid": {
+    "result": {
+      "id": "268d97c1-e1da-487d-9c26-c445fde9a747",
+      "name": "Default_Employee",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        
+      ],
+      "groupby": [
+        {
+          "id": "d94b9810-3bd7-4275-bf15-8862ddf44fb9",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column41",
+          "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB"
+        },
+        {
+          "id": "4a17cce9-abb4-4c94-a21d-bf13789c7083",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column1",
+          "masterid": "3060"
+        },
+        {
+          "id": "f2037586-381e-422d-84e4-09ebf1d507f8",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column6",
+          "masterid": "7041"
+        },
+        {
+          "id": "ef2930d2-76bc-464e-a6a0-b4e7576a3e33",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column11",
+          "masterid": "E66E5177-DFD2-48A5-BBDE-C8891C37F943"
+        }
+      ],
+      "columns": [
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-05",
+          "seqno": 1,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "employeename",
+          "columnwidth": 300
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-04",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "employeeid",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "email",
+          "columnwidth": 250
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0010",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "Employment Status",
+          "columnwidth": 200
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0011",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "DateOfJoining",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0012",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "Gender",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-06",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "MaritalStatus",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "Status",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "getreportslistdetails": {
+    "result": {
+      "data": [
+        {
+          "employeename": "Timesheet Summary",
+          "employeeid": "Timesheet",
+          "Status": "Active",
+          "Employment Status": "Timesheet overview for all emloyee",
+          "email": "jon.beck@archarina.com",
+          "MaritalStatus": "Single",
+          "DateOfJoining": "02/24/2025",
+          "Gender": "Male"
+        },
+        {
+          "employeename": "TImesheet Detailed Breakdown",
+          "employeeid": "Timesheet",
+          "Status": "Active",
+          "Employment Status": "Detailed time entries with task-level information",
+          "email": "noman.oscar@archarina.com",
+          "MaritalStatus": "Married",
+          "DateOfJoining": "02/24/2025",
+          "Gender": "Male"
+        },
+        {
+          "employeename": "Clock In Report",
+          "employeeid": "Timesheet",
+          "Status": "Active",
+          "Employment Status": "Simple clock-in/clock-out times for all employees",
+          "email": "willie.makit@archarina.com",
+          "MaritalStatus": "Married",
+          "DateOfJoining": "02/26/2025",
+          "Gender": "Male"
+        },
+        {
+          "employeename": "Timesheet Edit Summary",
+          "employeeid": "Timesheet",
+          "Status": "Active",
+          "Employment Status": "Captures employee timesheet edits for transparency & auditing",
+          "email": "anita.letterback@archarina.com",
+          "MaritalStatus": "Single",
+          "DateOfJoining": "03/03/2025",
+          "Gender": "Female"
+        },
+        {
+          "employeename": "Employee Task Report",
+          "employeeid": "Timesheet",
+          "Status": "Active",
+          "Employment Status": "Summarizes tasks performed by employees with time spent, status &  task linkage",
+          "email": "hr@arctime.com",
+          "MaritalStatus": "Single",
+          "DateOfJoining": "01/05/2025",
+          "Gender": "Female"
+        },
+        {
+          "employeename": "Attendance Report (With Schedule)",
+          "employeeid": "Attendance",
+          "Status": "Active",
+          "Employment Status": "Employee attendance patterns and punctuality metrics",
+          "email": "hr@arctime.com",
+          "MaritalStatus": "Single",
+          "DateOfJoining": "01/05/2025",
+          "Gender": "Female"
+        },
+        {
+          "employeename": "Time OFF History",
+          "employeeid": "Time Off",
+          "Status": "Active",
+          "Employment Status": "Historical view of all time-off requests and approvals",
+          "email": "hr@arctime.com",
+          "MaritalStatus": "Single",
+          "DateOfJoining": "01/05/2025",
+          "Gender": "Female"
+        }
+      ],
+      "totalRecords": 5,
+      "groupbydetails": []
+    }
+  },
+  "gettimesheetsummarylistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "0c67ee8d-2e31-4e25-85b2-4afa61197f3e",
+          "entityid": "26b84156-cc30-416e-99d5-b37409b4d0bd",
+          "entityname": "Workitem",
+          "name": "Default_List_Task",
+          "header": {
+            "name": "Workitem"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "268d97c1-e1da-487d-9c26-c445fde9a747",
+                "title": "Default_Employee",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 1
+              },
+              {
+                "datasetid": "2a495207-3c33-4185-9c63-d72060fbc5a3",
+                "title": "Resource",
+                "isdefault": true,
+                "isselected": false,
+                "owner": "system",
+                "seqno": 109
+              },
+              {
+                "datasetid": "509f30cc-fc18-4577-997c-77c959a559e6",
+                "title": "Inbox",
+                "isdefault": true,
+                "isselected": false,
+                "owner": "system",
+                "seqno": 112
+              },
+              {
+                "datasetid": "fe600956-2e9f-4bd4-8ee7-6874268079d1",
+                "title": "Backlog",
+                "isdefault": true,
+                "isselected": false,
+                "owner": "system",
+                "seqno": 113
+              },
+              {
+                "datasetid": "f33e5317-72a7-4c5f-9e26-a1d09f0c7336",
+                "title": "DS1",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 271
+              },
+              {
+                "datasetid": "321ceb1b-6a2b-470d-b79b-e5f23b995906",
+                "title": "Ds2",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 272
+              },
+              {
+                "datasetid": "6405e2dc-8b60-4569-9e2c-f6da877b2606",
+                "title": "lookup DS",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 274
+              },
+              {
+                "datasetid": "1956188c-6567-4ee0-9b2f-a34dd8aa9432",
+                "title": "ds",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 282
+              },
+              {
+                "datasetid": "d2bc51c7-2fd3-4404-b1ef-0741a2794fec",
+                "title": "test",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 290
+              },
+              {
+                "datasetid": "85e1ed54-67d7-43c6-adb0-ab659c066ebf",
+                "title": "Test1",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 306
+              },
+              {
+                "datasetid": "f9c47c0e-090e-45d5-aed5-3ea660219639",
+                "title": "A Dataset",
+                "isdefault": false,
+                "isselected": false,
+                "owner": "Annamalai V",
+                "seqno": 315
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-05",
+                  "name": "EmployeeID",
+                  "lablekey": "lbl-Workitem-employeename",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "employeename",
+                  "visible": true,
+                  "displayapiname": "employeename",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": true
+                },
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-04",
+                  "name": "Employee Name",
+                  "lablekey": "lbl-Workitem-projectid",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "employeeid",
+                  "visible": true,
+                  "displayapiname": "employeeid",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": true
+                },
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0010",
+                  "name": "Position",
+                  "lablekey": "lbl-Workitem-projectid",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "Employment Status",
+                  "visible": true,
+                  "displayapiname": "Employment Status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": true
+                },
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0011",
+                  "name": "Worked Hrs",
+                  "lablekey": "lbl-Workitem-projectid",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "Employment Status",
+                  "visible": true,
+                  "displayapiname": "email",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": true
+                },
+                {
+                  "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0012",
+                  "name": "Overtime Hrs",
+                  "lablekey": "lbl-Workitem-projectid",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB",
+                  "controltype": "onclickloaddropdown",
+                  "attrtype": "Uniqueidentifier",
+                  "api_name": "Employment Status",
+                  "visible": true,
+                  "displayapiname": "MaritalStatus",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": true
+                }
+              ],
+              "filterfields": [
+                
+                {
+                  "id": "c5c3b8c8-ca99-408e-b54b-2861399b1",
+                  "name": "Category",
+                  "lablekey": "lbl-Workitem-client",
+                  "seqno": 2,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": false,
+                  "api_name": "category",
+                  "islookup": true,
+                  "masterid": "568",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "c5c3b8c8-ca99-408e-b54b-2861399b1c72",
+                  "name": "Status",
+                  "lablekey": "lbl-Workitem-chunk",
+                  "seqno": 7,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": false,
+                  "api_name": "column3",
+                  "islookup": false,
+                  "masterid": "12345",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "137002d1-2b05-403f-8e98-0d88fab3a10a",
+                  "name": "Chunk",
+                  "labelkey": "lbl-Workitem-chunk",
+                  "seqno": 1,
+                  "api_name": "column3",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "351000000"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f25",
+                  "name": "Task Plan Week",
+                  "labelkey": "lbl-Workitem-planweek",
+                  "seqno": 2,
+                  "api_name": "column12",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7005"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f26",
+                  "name": "Plan Month",
+                  "labelkey": "lbl-Workitem-planmonth",
+                  "seqno": 3,
+                  "api_name": "column13",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7004"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f27",
+                  "name": "Plan Quater",
+                  "labelkey": "lbl-Workitem-planquater",
+                  "seqno": 4,
+                  "api_name": "column14",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7008"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f28",
+                  "name": "Plan Year",
+                  "labelkey": "lbl-Workitem-planyear",
+                  "seqno": 5,
+                  "api_name": "column15",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7003"
+                },
+                {
+                  "id": "1b67aa8d-2e31-4e25-85b2-4afa61197f29",
+                  "name": "Task Owner",
+                  "labelkey": "lbl-Workitem-owner",
+                  "seqno": 6,
+                  "api_name": "column10",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "E66E5177-DFD2-48A5-BBDE-C8891C37F943"
+                },
+                {
+                  "id": "ef2930d2-76bc-464e-a6a0-b4e7576a3e33",
+                  "name": " Task Assigned To",
+                  "labelkey": "lbl-Workitem-Taskassignedby",
+                  "seqno": 5,
+                  "api_name": "column11",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "E66E5177-DFD2-48A5-BBDE-C8891C37F943"
+                },
+                {
+                  "id": "f2037586-381e-422d-84e4-09ebf1d507f8",
+                  "name": "Priority",
+                  "labelkey": "lbl-Workitem-priority",
+                  "seqno": 4,
+                  "api_name": "column6",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "7041"
+                },
+                {
+                  "id": "4a17cce9-abb4-4c94-a21d-bf13789c7083",
+                  "name": "Workitem Type",
+                  "labelkey": "lbl-Workitem-workitem type",
+                  "seqno": null,
+                  "api_name": "column1",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "3060"
+                },
+                {
+                  "id": "d94b9810-3bd7-4275-bf15-8862ddf44fb9",
+                  "name": "Project",
+                  "labelkey": "lbl-Workitem-projectid",
+                  "seqno": 2,
+                  "api_name": "column41",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "gettimesheetsummarydatasetfieldinfobyid": {
+    "result": {
+      "id": "268d97c1-e1da-487d-9c26-c445fde9a747",
+      "name": "Default_Employee",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        
+      ],
+      "groupby": [
+        {
+          "id": "d94b9810-3bd7-4275-bf15-8862ddf44fb9",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column41",
+          "masterid": "0462F02F-D350-4244-9B76-3CBC965207BB"
+        },
+        {
+          "id": "4a17cce9-abb4-4c94-a21d-bf13789c7083",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column1",
+          "masterid": "3060"
+        },
+        {
+          "id": "f2037586-381e-422d-84e4-09ebf1d507f8",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column6",
+          "masterid": "7041"
+        },
+        {
+          "id": "ef2930d2-76bc-464e-a6a0-b4e7576a3e33",
+          "type": "Horizontal",
+          "direction": "asc",
+          "defaultvalue": "",
+          "api_name": "column11",
+          "masterid": "E66E5177-DFD2-48A5-BBDE-C8891C37F943"
+        }
+      ],
+      "columns": [
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-05",
+          "seqno": 1,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "employeename",
+          "columnwidth": 300
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-04",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "employeeid",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5ce7",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "email",
+          "columnwidth": 250
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0010",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "Employment Status",
+          "columnwidth": 200
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0011",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "DateOfJoining",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-0012",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "Gender",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-06",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "MaritalStatus",
+          "columnwidth": 150
+        },
+        {
+          "id": "b87fb361-e374-46f2-a823-55f78a8c5c-07",
+          "seqno": 3,
+          "masterid": "0",
+          "controltype": "onclickloaddropdown",
+          "attrtype": "Uniqueidentifier",
+          "api_name": "Status",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "gettimesheetsummarylistdetails": {
+    "result": {
+      "data": [
+        {
+          "employeename": "EMP-1",
+          "employeeid": "John Smith",
+          "Status": "Active",
+          "Employment Status": "Developer",
+          "email": "8:00",
+          "MaritalStatus": "1:00",
+          "DateOfJoining": "02/24/2025",
+          "Gender": "Male"
+        },
+        {
+          "employeename": "EMP-2",
+          "employeeid": "Priya Das",
+          "Status": "Active",
+          "Employment Status": "HR Manager",
+          "email": "7:30",
+          "MaritalStatus": "0:30",
+          "DateOfJoining": "02/24/2025",
+          "Gender": "Male"
+        },
+        {
+          "employeename": "EMP-3",
+          "employeeid": "Angeline",
+          "Status": "Active",
+          "Employment Status": "Admin",
+          "email": "0:00",
+          "MaritalStatus": "0:00",
+          "DateOfJoining": "02/26/2025",
+          "Gender": "Male"
+        },
+        {
+          "employeename": "EMP-4",
+          "employeeid": "Carlos Ruiz",
+          "Status": "Active",
+          "Employment Status": "QA Engineer",
+          "email": "9:00",
+          "MaritalStatus": "1:00",
+          "DateOfJoining": "03/03/2025",
+          "Gender": "Female"
+        },
+        {
+          "employeename": "EMP-5",
+          "employeeid": "Meena Kumari",
+          "Status": "Active",
+          "Employment Status": "Accountant",
+          "email": "6:45",
+          "MaritalStatus": "0:45",
+          "DateOfJoining": "01/05/2025",
+          "Gender": "Female"
+        },
+        {
+          "employeename": "EMP-6",
+          "employeeid": "Daniel Cho",
+          "Status": "Active",
+          "Employment Status": "DevOps Lead",
+          "email": "8:30",
+          "MaritalStatus": "2:00",
+          "DateOfJoining": "01/05/2025",
+          "Gender": "Female"
+        },
+        {
+          "employeename": "EMP-7",
+          "employeeid": "Akash Verma",
+          "Status": "Active",
+          "Employment Status": "Intern",
+          "email": "0:00",
+          "MaritalStatus": "0:30",
+          "DateOfJoining": "01/05/2025",
+          "Gender": "Female"
+        }
+      ],
+      "totalRecords": 5,
+      "groupbydetails": []
+    }
+  },
   "getpayperiodlistconfigbyid": {
     "result": {
       "list": [

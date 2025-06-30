@@ -48,6 +48,12 @@
           },
           {
             "islookup": true,
+            "masterid": "908347",
+            "mastervalues": "[{\"optionid\":\"P1\",\"optionvalue\":\"All Reportees\"},{\"optionid\":\"P2\",\"optionvalue\":\"All Employees\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
             "masterid": "908346",
             "mastervalues": "[{\"optionid\":\"P1\",\"optionvalue\":\"PTO\"},{\"optionid\":\"P2\",\"optionvalue\":\"Sick\"},{\"optionid\":\"P3\",\"optionvalue\":\"Vacation\"}]",
             "groupvalue": {}
@@ -10763,7 +10769,7 @@
                   "name": "Date Range Filter",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
-                  "filtercontroltype": "multiselect",
+                  "filtercontroltype": "datepicker",
                   "isquickfilter": true,
                   "api_name": "EntityType",
                   "islookup": true,
@@ -10786,14 +10792,14 @@
                 },
                 {
                   "id": "006",
-                  "name": "All Reportees",
+                  "name": "Reportees",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
-                  "filtercontroltype": "textbox",
+                  "filtercontroltype": "multiselect",
                   "isquickfilter": true,
                   "api_name": "EntityType",
                   "islookup": true,
-                  "masterid": "",
+                  "masterid": "908347",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 },
